@@ -1,0 +1,5 @@
+<div class="app">
+  <div class="number" *ngFor='let item of data'>
+      {{item.type}}: {{item.num | shortNumberSuffix: '2'}}
+  </div>
+</div>
